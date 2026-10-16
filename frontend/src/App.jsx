@@ -167,7 +167,7 @@ function App() {
 
           <footer id="base-de-datos" className="page-footer">
             <span>Diseñado para conectar con SQL Server</span>
-            <a href="/database/schema.sql" target="_blank" rel="noreferrer">Ver esquema SQL <span aria-hidden="true">↗</span></a>
+            <a href="/schema.sql" target="_blank" rel="noreferrer">Ver esquema SQL <span aria-hidden="true">↗</span></a>
           </footer>
         </main>
       </div>

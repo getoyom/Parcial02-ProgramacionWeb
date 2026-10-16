@@ -21,3 +21,13 @@ Para validar el código y generar la versión de producción:
 npm run lint
 npm run build
 ```
+
+## Estructura
+
+```text
+- frontend/: componentes React, estilos, recursos estáticos y configuración Vite/ESLint.
+- backend/database/schema.sql: esquema y datos de ejemplo para SQL Server.
+- package.json: scripts para desarrollo, lint, build y preview.
+```
+
+El frontend es funcional con datos de demostración en memoria. `backend/database/schema.sql` define la base de datos para SQL Server; todavía no hay una API conectada a la aplicación.
